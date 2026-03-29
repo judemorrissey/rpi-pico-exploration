@@ -1,0 +1,32 @@
+# Build artifacts (C/C++ SDK)
+build/
+*.elf
+*.bin
+*.hex
+*.dis
+*.uf2
+*.map
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# MicroPython
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
